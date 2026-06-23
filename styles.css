@@ -1,6 +1,4 @@
-/* =========================
-   GLOBAL
-========================= */
+
 
 *{
 margin:0;
@@ -14,9 +12,7 @@ background:#f4f6f9;
 overflow-x:hidden;
 }
 
-/* =========================
-   NAVBAR
-========================= */
+
 
 nav{
 position:sticky;
@@ -89,9 +85,7 @@ border-radius:8px;
 border:1px solid #ccc;
 }
 
-/* =========================
-   HERO SECTION
-========================= */
+
 
 .hero{
 height:80vh;
@@ -135,9 +129,7 @@ font-size:16px;
 cursor:pointer;
 }
 
-/* =========================
-   SECTIONS
-========================= */
+
 
 .section{
 padding:60px 30px;
@@ -150,9 +142,7 @@ margin-bottom:40px;
 color:#1e3c72;
 }
 
-/* =========================
-   GRID
-========================= */
+
 
 .grid{
 display:grid;
@@ -161,9 +151,7 @@ repeat(auto-fit,minmax(280px,1fr));
 gap:25px;
 }
 
-/* =========================
-   DESTINATION CARDS
-========================= */
+
 
 .card{
 background:white;
@@ -221,9 +209,7 @@ border-radius:8px;
 cursor:pointer;
 }
 
-/* =========================
-   PACKAGE CARDS
-========================= */
+
 
 .package-card{
 background:white;
@@ -253,9 +239,7 @@ padding:0 15px 15px;
 color:#555;
 }
 
-/* =========================
-   ABOUT SECTION
-========================= */
+
 
 .about{
 padding:60px 30px;
@@ -286,9 +270,7 @@ line-height:1.6;
 color:#555;
 }
 
-/* =========================
-   FOOTER
-========================= */
+
 
 footer{
 margin-top:50px;
@@ -332,9 +314,7 @@ color:white;
 text-decoration:none;
 }
 
-/* =========================
-   NO RESULT
-========================= */
+
 
 .no-result{
 text-align:center;
@@ -343,9 +323,6 @@ color:red;
 padding:40px;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media(max-width:992px){
 
@@ -434,7 +411,7 @@ width:100%;
 
 }
 
-/* LOGIN POPUP */
+
 
 .modal{
 
