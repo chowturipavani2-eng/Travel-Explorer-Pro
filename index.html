@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Explorer Pro</title>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+
+<nav>
+
+<div class="logo">
+🌍 Travel Explorer Pro
+</div>
+
+<ul class="menu">
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#destinations">Destinations</a></li>
+
+<li><a href="#packages">Packages</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#footer">Contact</a></li>
+
+</ul>
+
+<input
+type="text"
+id="searchInput"
+class="search-nav"
+placeholder="Search Destination..."
+>
+
+<div class="right-menu">
+
+<a href="#" class="wishlist">
+❤️ Wishlist
+</a>
+
+<a
+href="#"
+class="login-btn"
+onclick="openLogin()">
+
+Login / Create Account
+
+</a>
+
+<<!-- LOGIN MODAL -->
+
+<div id="loginModal" class="modal">
+
+<div class="modal-content">
+
+<span class="close-btn" onclick="closeLogin()">
+&times;
+</span>
+
+<h2>Login</h2>
+
+<input
+type="email"
+id="loginEmail"
+placeholder="Email">
+
+<input
+type="password"
+id="loginPassword"
+placeholder="Password">
+
+<button onclick="loginUser()">
+Login
+</button>
+
+<p>
+Don't have an account?
+
+<a href="#"
+onclick="openRegister()">
+
+Create Account
+
+</a>
+
+</p>
+
+</div>
+
+</div>
+
+<!-- REGISTER MODAL -->
+
+<div id="registerModal" class="modal">
+
+<div class="modal-content">
+
+<span class="close-btn"
+onclick="closeRegister()">
+
+&times;
+
+</span>
+
+<h2>Create Account</h2>
+
+<input
+type="text"
+id="regName"
+placeholder="Full Name">
+
+<input
+type="email"
+id="regEmail"
+placeholder="Email">
+
+<input
+type="password"
+id="regPassword"
+placeholder="Password">
+
+<input
+type="tel"
+id="regPhone"
+placeholder="Phone Number">
+
+<button onclick="registerUser()">
+Create Account
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<select>
+<option>India</option>
+<option>USA</option>
+<option>UK</option>
+<option>Dubai</option>
+<option>Australia</option>
+</select>
+
+<select>
+<option>INR</option>
+<option>USD</option>
+<option>EUR</option>
+<option>AED</option>
+</select>
+
+</div>
+
+</nav>
+
+
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Explore The World With Us</h1>
+
+<p>
+Discover amazing destinations, exciting adventures,
+luxury vacations and unforgettable memories.
+</p>
+
+<button>
+Explore Now
+</button>
+
+</div>
+
+</section>
+
+
+
+<section
+id="destinations"
+class="section">
+
+<h2 class="section-title">
+Popular Destinations
+</h2>
+
+<div
+id="destinationContainer"
+class="grid">
+
+</div>
+
+</section>
+
+
+
+<section
+id="packages"
+class="section">
+
+<h2 class="section-title">
+Popular Travel Packages
+</h2>
+
+<div
+id="packageContainer"
+class="grid">
+
+</div>
+
+</section>
+
+
+
+<section
+id="about"
+class="about">
+
+<h2 class="section-title">
+Why Travel With Us?
+</h2>
+
+<div class="about-grid">
+
+<div class="about-card">
+
+<h3>
+🌍 50+ Destinations
+</h3>
+
+<p>
+Explore beaches, mountains,
+historical places and natural wonders
+around the globe.
+</p>
+
+</div>
+
+<div class="about-card">
+
+<h3>
+💰 Affordable Packages
+</h3>
+
+<p>
+Budget-friendly travel packages
+for solo travelers, families and couples.
+</p>
+
+</div>
+
+<div class="about-card">
+
+<h3>
+❤️ Wishlist Support
+</h3>
+
+<p>
+Save favorite destinations and
+plan future trips easily.
+</p>
+
+</div>
+
+<div class="about-card">
+
+<h3>
+✈️ Travel Planning
+</h3>
+
+<p>
+Get destination guides,
+holiday packages and travel tips.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="section">
+
+<h2 class="section-title">
+Travel The World
+</h2>
+
+<p style="text-align:center;max-width:1000px;margin:auto;line-height:1.8;">
+
+Travel opens the door to new experiences,
+cultures and unforgettable memories.
+Whether you dream of relaxing on the beaches
+of Maldives, exploring the streets of Paris,
+adventuring through the mountains of Switzerland
+or discovering the beauty of Goa, Travel Explorer
+helps you find the perfect destination and package.
+
+Our platform offers destination guides,
+travel recommendations, affordable packages,
+wishlist features and useful travel information
+to help you plan your next journey.
+
+</p>
+
+</section>
+
+
+
+<footer id="footer">
+
+<div class="footer-top">
+
+<div>
+
+<h2>
+About Travel Explorer
+</h2>
+
+<p>
+
+Travel Explorer helps travelers
+discover amazing destinations,
+holiday packages, hotels and travel experiences.
+
+</p>
+
+</div>
+
+<div>
+
+<h2>
+Popular Destinations
+</h2>
+
+<p>
+
+Goa, Paris, Dubai,
+Singapore, Maldives,
+Bali, London and more.
+
+</p>
+
+</div>
+
+<div>
+
+<h2>
+Travel Services
+</h2>
+
+<p>
+
+Flights,
+Hotels,
+Packages,
+Travel Guides,
+Vacation Planning.
+
+</p>
+
+</div>
+
+<div>
+
+<h2>
+Contact Us
+</h2>
+
+<p>
+
+Email:
+travel@explorer.com
+
+<br><br>
+
+Phone:
++91 9876543210
+
+</p>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+© 2026 Travel Explorer Pro.
+All Rights Reserved.
+</p>
+
+<div class="socials">
+
+<a href="#">Facebook</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">Twitter</a>
+
+<a href="#">LinkedIn</a>
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
