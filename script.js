@@ -1,3 +1,6 @@
+// ==========================
+// WISHLIST
+// ==========================
 
 let wishlist =
 JSON.parse(localStorage.getItem("wishlist")) || [];
@@ -230,6 +233,9 @@ ${description}`
 
 }
 
+// ==========================
+// SEARCH
+// ==========================
 
 const searchInput =
 document.getElementById("searchInput");
@@ -256,7 +262,9 @@ loadDestinations(filtered);
 
 }
 
-
+// ==========================
+// BACKGROUND SLIDER
+// ==========================
 
 const hero =
 document.querySelector(".hero");
@@ -310,7 +318,9 @@ url('${heroImages[currentImage]}')`;
 
 }
 
-
+// ==========================
+// PACKAGES
+// ==========================
 
 const packages = [
 
@@ -443,7 +453,9 @@ description:"6 Days Santorini Escape"
 }
 ];
 
-
+// ==========================
+// PACKAGE DISPLAY
+// ==========================
 
 const packageContainer =
 document.getElementById("packageContainer");
@@ -478,13 +490,15 @@ packageContainer.innerHTML = html;
 
 }
 
-
+// ==========================
+// INITIAL LOAD
+// ==========================
 
 loadDestinations(destinations);
 
 loadPackages();
 
-
+// LOGIN POPUP
 
 function openLogin(){
 
@@ -537,7 +551,7 @@ alert(
 
 }
 
-
+// LOGIN MODAL
 
 function openLogin(){
 
@@ -555,6 +569,7 @@ document
 
 }
 
+// REGISTER MODAL
 
 function openRegister(){
 
@@ -574,7 +589,7 @@ document
 
 }
 
-
+// REGISTER USER
 
 function registerUser(){
 
@@ -627,7 +642,7 @@ openLogin();
 
 }
 
-
+// LOGIN USER
 
 function loginUser(){
 
